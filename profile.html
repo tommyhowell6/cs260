@@ -1,1 +1,88 @@
-
+<HTML>
+  /*
+  put stuff on github file and pictures
+  horizontal sections
+  */
+  <head>
+    <style media="screen">
+      body {
+        
+      }
+      #pic{
+        width: 40%;
+        height: auto;
+        
+      }
+      #header{
+        background-image: url('')
+      }
+      #header,#footer{
+        background-color: black;
+        color: white;
+        padding: 20px;
+      }
+      div{
+        background-color: lightgrey;
+      }
+      h1 {
+        background-color: blue;
+        color: white;
+        padding: 5px;
+        width: 28%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Tommy Howell</h1>
+    </div>
+    <div id="container">
+      <div id="about">
+        <h2>About Me</h2>
+        <p>I am a BYU student in Bioinformatics. I am from Highland Utah.</p>
+      </div>
+      <div id="projects">
+        <h2>Projects I have worked on:</h2>
+        <ul>
+          <li>I have created an android app. </li>
+          <li>236 stuff</li>
+        </ul>
+      </div>
+      <div id="work">
+        <h2>Work Experience</h2>
+        <ul>
+          <li>BYU Store</li>
+          <li>Open Court</li>
+        </ul>
+      </div>
+      <div id="links">
+        <h2>Links</h2>
+        <ul>
+          <li><a href="https://github.com/tommyhowell6">My Github page</a></li>
+          <li><a href="https://www.linkedin.com/in/tommy-howell-a193b1130/">My Linkedin page</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>References</h2>
+        <ol>
+          <li>Reference</li>
+          <li>Reference</li>
+        </ol>
+      </div>
+      <div>
+        <button onclick="fun()">Change</button>
+      </div>
+      <div id="image">
+        <img id="pic" src ="IMG_8964.jpg">
+      </div>
+    </div>
+    <div id="footer">
+      Copyright 2017
+    </div>
+    <script type="text/javascript">
+    function fun(){
+      document.querySelector('h1').style.color = 'pink';
+    }
+    </script>
+  </body>
+</HTML>
